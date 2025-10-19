@@ -200,7 +200,6 @@ ul {
     box-shadow: 0 8px 24px var(--shadow-strong);
 }
 
-/* Storyboard Cards – remove hover glow */
 .storyboard-card {
     background-color: var(--clr-background);
     border-radius: var(--radius);
@@ -208,6 +207,15 @@ ul {
     box-shadow: 0 4px 16px var(--shadow-light);
 }
 
+.storyboard-card img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: contain;
+    border-radius: 8px;
+    margin: 16px 0;
+    display: block;
+}
 /* Tables */
 .favorites-table {
     width: 100%;
